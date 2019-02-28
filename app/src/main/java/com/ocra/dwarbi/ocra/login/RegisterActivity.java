@@ -9,8 +9,8 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.ocra.dwarbi.ocra.Database.DatabaseHelper;
 import com.ocra.dwarbi.ocra.R;
-import com.ocra.dwarbi.ocra.Database.*;
 
 public class RegisterActivity extends AppCompatActivity {
     DatabaseHelper db;

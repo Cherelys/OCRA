@@ -10,62 +10,81 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.widget.LinearLayout;
+import com.ocra.dwarbi.ocra.Database.DatabaseHelper;
 import com.ocra.dwarbi.ocra.HomeActivity;
 import com.ocra.dwarbi.ocra.R;
-import com.ocra.dwarbi.ocra.Database.DatabaseHelper;
 
 public class LoginActivity extends AppCompatActivity {
-        EditText mTextUsername;
-        EditText mTextPassword;
-        Button mButtonLogin;
-        TextView mTextViewRegister;
-        DatabaseHelper db;
-        ViewGroup progressView;
-        protected boolean isProgressShowing = false;
+    EditText mTextUsername;
+    EditText mTextPassword;
+    Button mButtonLogin;
+    TextView mTextViewRegister;
+    DatabaseHelper db;
+    ViewGroup progressView;
+    protected boolean isProgressShowing = false;
 
-        @Override
-        protected void onCreate(Bundle savedInstanceState) {
-            super.onCreate(savedInstanceState);
-            setContentView(R.layout.activity_login);
-        }
-        Dialog dialog = new Dialog(this,android.R.style.Theme_Translucent_NoTitleBar);
-        View v = this.getLayoutInflater().inflate(R.layout.progress_bar,null);
-            dialog.setContentView(v);
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_login);
+
+
+    Dialog dialog = new Dialog(this, android.R.style.Theme_Translucent_NoTitleBar);
+  //  View v = this.getLayoutInflater().inflate(R.layout.progressbar, null);
+        //    dialog.setContentView(v);
             dialog.show();
 
-        db = new DatabaseHelper (this);
-        mTextUsername = (EditText)findViewById(R.id.edittext_username);
-        mTextPassword = (EditText)findViewById(R.id.edittext_password);
-        mButtonLogin = (Button)findViewById(R.id.button_login);
-        mTextViewRegister = (TextView)findViewById(R.id.textview_register);
-            mTextViewRegister.setOnClickListener(new View.OnClickListener() {
 
-            @Override
-            public void onClick(View view) {
-                Intent registerIntent = new Intent(LoginActivity.this,RegisterActivity.class);
-                startActivity(registerIntent);
-            }
-        });
+    db =new
 
-            mButtonLogin.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                String user = mTextUsername.getText().toString().trim();
-                String pwd = mTextPassword.getText().toString().trim();
-                Boolean res = db.checkUser(user, pwd);
-                if(res == true)
-                {
-                    Intent HomePage = new Intent(LoginActivity.this,HomeActivity.class);
-                    startActivity(HomePage);
-                }
-                else
-                {
-                    Toast.makeText(LoginActivity.this,"Login Error",Toast.LENGTH_SHORT).show();
-                }
-            }
-        });
+    DatabaseHelper(this);
 
-        public void showProgressingView() {
+    mTextUsername =(EditText)
+
+    findViewById(R.id.edittext_username);
+
+    mTextPassword =(EditText)
+
+    findViewById(R.id.edittext_password);
+
+    mButtonLogin =(Button)
+
+    findViewById(R.id.button_login);
+
+    mTextViewRegister =(TextView)
+
+    findViewById(R.id.textview_register);
+            mTextViewRegister.setOnClickListener(new View.OnClickListener()
+
+    {
+
+        @Override
+        public void onClick (View view){
+        Intent registerIntent = new Intent(LoginActivity.this, RegisterActivity.class);
+        startActivity(registerIntent);
+    }
+    });
+
+            mButtonLogin.setOnClickListener(new View.OnClickListener()
+
+    {
+        @Override
+        public void onClick (View view){
+        String user = mTextUsername.getText().toString().trim();
+        String pwd = mTextPassword.getText().toString().trim();
+        Boolean res = db.checkUser(user, pwd);
+        if (res == true) {
+            Intent HomePage = new Intent(LoginActivity.this, HomeActivity.class);
+            startActivity(HomePage);
+        } else {
+            Toast.makeText(LoginActivity.this, "Login Error", Toast.LENGTH_SHORT).show();
+        }
+      }
+    });
+}
+
+    /*    public void showProgressingView() {
 
             if (!isProgressShowing) {
                 View view=findViewById(R.id.progressBar1);
@@ -78,6 +97,6 @@ public class LoginActivity extends AppCompatActivity {
             ViewGroup viewGroup = (ViewGroup) v;
             viewGroup.removeView(progressView);
             isProgressShowing = false;
-        }
+        }*/
 }
 

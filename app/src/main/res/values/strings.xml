@@ -1,11 +1,13 @@
 <resources>
     <string name="app_name">OCRA</string>
-    <string name="password">password</string>
-    <string name="username">username</string>
-    <string name="login">login</string>
-    <string name="not_registered">not_registered</string>
-    <string name="register">register</string>
-    <string name="confirm_password">confirm_password</string>
-    <string name="already_registered">already_registered</string>
-    <string name="welcome_user">welcome_user</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="login">lOGIN</string>
+    <string name="not_registered">Not Registered?</string>
+    <string name="register">Register</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_registered">Already Registered</string>
+    <string name="welcome_user">Welcome User</string>
 </resources>
