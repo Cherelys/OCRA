@@ -1,7 +1,12 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">OCRA</string>
-    <string name="action_settings">Settings</string>
+    -------------------
+    <string-array name="header_titles">
+        <item>Onderneming Diensten</item>
+        <item>Bouwwerk Aard</item>
 
+    </string-array>
+    ----------------
     <string name="password">Password</string>
     <string name="username">Username</string>
     <string name="login">lOGIN</string>
@@ -10,4 +15,50 @@
     <string name="confirm_password">Confirm Password</string>
     <string name="already_registered">Already Registered</string>
     <string name="welcome_user">Welcome User</string>
+    <string name="logo">LOGO</string>
+    <string name="appbar_scrolling_view_behavior" tools:ignore="DuplicateDefinition">appbar_scrolling_view_behavior</string>
+    <string name="appbar_scrolling_view_behavior" tools:ignore="DuplicateDefinition">appbar_scrolling_view_behavior</string>
+    <string name="pve">PVE</string>
+    <string name="about">About</string>
+    <string name="settings">Settings</string>
+
+
+    <string-array name="diensten_items">
+        <item>Vooronderzoek</item>
+        <item>Voor-ontwerp</item>
+        <item>Definitief-ontwerp</item>
+        <item>Constructierapport</item>
+        <item>Vergunning aanvraag O.W</item>
+        <item>Technische omschrijving</item>
+        <item>Technische tekeningen</item>
+        <item>Directie Raming</item>
+        <item>3D exterieur</item>
+        <item>3D interieur</item>
+        <item>Aanbesteding, contractvorming en gunning</item>
+        <item>Basis pakket Bouwadministratie</item>
+        <item>Bouwmanagement</item>
+        <item>Kwaliteitsmanagement</item>
+    </string-array>
+
+
+    <string-array name="bouwwerk_items">
+        <item>Woonhuis</item>
+        <item>Kantoor</item>
+        <item>Winkelcentrum</item>
+        <item>Appartement</item>
+        <item>Hotel</item>
+        <item>Sportcentrum</item>
+        <item>Multifunctionele bouwwerk</item>
+    </string-array>
+    <string name="title_activity_main_fragment">MainFragment</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="srenniw_architects_n_v_heeft_zich_gecommitteerd_aan_het_op_de_voet_volgen_van_de_nieuwste_ontwikkelingen_die_zullen_leiden_tot_een_constante_kwalitatief_hoogstaande_dienstverlening_op_het_gebied_van_engineering">SRENNIW ARCHITECTS N.V. Heeft zich gecommitteerd aan het op de voet volgen van de nieuwste ontwikkelingen die zullen leiden tot een constante kwalitatief hoogstaande dienstverlening op het gebied van Engineering.</string>
+
 </resources>

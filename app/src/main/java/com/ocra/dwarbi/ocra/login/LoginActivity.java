@@ -5,7 +5,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -21,44 +20,24 @@ public class LoginActivity extends AppCompatActivity {
     Button mButtonLogin;
     TextView mTextViewRegister;
     DatabaseHelper db;
-    ViewGroup progressView;
-    protected boolean isProgressShowing = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-
-    Dialog dialog = new Dialog(this, android.R.style.Theme_Translucent_NoTitleBar);
-  //  View v = this.getLayoutInflater().inflate(R.layout.progressbar, null);
-        //    dialog.setContentView(v);
-            dialog.show();
-
-
     db =new
-
     DatabaseHelper(this);
-
     mTextUsername =(EditText)
-
     findViewById(R.id.edittext_username);
-
     mTextPassword =(EditText)
-
     findViewById(R.id.edittext_password);
-
     mButtonLogin =(Button)
-
     findViewById(R.id.button_login);
-
     mTextViewRegister =(TextView)
-
     findViewById(R.id.textview_register);
             mTextViewRegister.setOnClickListener(new View.OnClickListener()
-
     {
-
         @Override
         public void onClick (View view){
         Intent registerIntent = new Intent(LoginActivity.this, RegisterActivity.class);
@@ -67,7 +46,6 @@ public class LoginActivity extends AppCompatActivity {
     });
 
             mButtonLogin.setOnClickListener(new View.OnClickListener()
-
     {
         @Override
         public void onClick (View view){

@@ -41,6 +41,7 @@ public class RegisterActivity extends AppCompatActivity {
 
         mButtonRegister.setOnClickListener(new View.OnClickListener() {
             @Override
+            // checken dat alle if statements werken
             public void onClick(View view) {
                 String user = mTextUsername.getText().toString().trim();
                 String pwd = mTextPassword.getText().toString().trim();

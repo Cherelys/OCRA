@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentStart="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                app:srcCompat="@drawable/image3"
+                android:id="@+id/imageView5"
+                android:layout_marginEnd="191dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                app:srcCompat="@drawable/image2"
+                android:id="@+id/imageView6"
+                android:layout_marginStart="138dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="155dp">
+
+            <TextView
+                android:text="Of het nu om een strak eenvoudig ontwerp gaat of een gecompliceerd concept, bij ons ben je verzekerd van aandacht, kwaliteit, vakmanschap en creativiteit dat perfect is afgestemd op uw budget."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:textAlignment="center" />
+
+            <TextView
+                android:text="@string/srenniw_architects_n_v_heeft_zich_gecommitteerd_aan_het_op_de_voet_volgen_van_de_nieuwste_ontwikkelingen_die_zullen_leiden_tot_een_constante_kwalitatief_hoogstaande_dienstverlening_op_het_gebied_van_engineering"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView7"
+                android:textAlignment="center"
+                android:layout_above="@+id/textView3"
+                android:layout_alignParentStart="true" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="334dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                app:srcCompat="@drawable/image4"
+                android:id="@+id/imageView5"
+                android:layout_marginEnd="191dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                app:srcCompat="@drawable/image1"
+                android:id="@+id/imageView6"
+                android:layout_marginStart="156dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:text="ONTWERPEN
+Of het nu om een strak eenvoudig ontwerp gaat of een gecompliceerd concept, bij ons ben je verzekerd van aandacht, kwaliteit, vakmanschap en creativiteit dat perfect is afgestemd op uw budget."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView7"
+                android:layout_marginTop="26dp"
+                android:textAlignment="center"
+                android:layout_below="@+id/imageView5"
+                android:layout_alignParentStart="true" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="273dp">
+
+            <TextView
+                android:text="Supervisie
+    De uitvoeringsfase, een  belangrijke fase, vraagt om  professionele en kundige begeleiding. SRENNIW zal  het project binnen de afgesproken tijd en het beschikbare budget conform de voorges- chreven kwaliteitseisen opleveren."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView9"
+                android:textAlignment="center"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="42dp" />
+
+            <TextView
+                android:text="Visualisatie
+    De 3D impressies op internationaal niveau die door ons geproduceerd word geeft u direct een beeld van het eindresultaat na oplevering, waardoor aanpassingen tijdens de uitvoering tot een minimum kan worden beperkt."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView8"
+                android:textAlignment="center"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="26dp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>
+
+</RelativeLayout>
