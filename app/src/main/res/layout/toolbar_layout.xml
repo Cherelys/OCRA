@@ -6,11 +6,9 @@
     android:layout_height="wrap_content"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main_toolbar"
-    android:background="?attr/colorPrimaryDark"
+    android:background="#45E74A"
     android:minHeight="?attr/actionBarSize"
     android:fitsSystemWindows="false"
     app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-    tools:context=".activity.MainActivity"
-    >
-
+    tools:context=".Activities.MainActivity">
 </android.support.v7.widget.Toolbar>

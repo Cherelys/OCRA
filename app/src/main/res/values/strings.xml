@@ -60,5 +60,11 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="srenniw_architects_n_v_heeft_zich_gecommitteerd_aan_het_op_de_voet_volgen_van_de_nieuwste_ontwikkelingen_die_zullen_leiden_tot_een_constante_kwalitatief_hoogstaande_dienstverlening_op_het_gebied_van_engineering">SRENNIW ARCHITECTS N.V. Heeft zich gecommitteerd aan het op de voet volgen van de nieuwste ontwikkelingen die zullen leiden tot een constante kwalitatief hoogstaande dienstverlening op het gebied van Engineering.</string>
+    <string name="ocra_menu">OCRA MENU</string>
+    <string name="update">UPDATE</string>
+    <string name="faq">FAQ</string>
+    <string name="profile">PROFILE</string>
+    <string name="report_bug">REPORT BUG</string>
+    <string name="link_account_with">LINK ACCOUNT WITH</string>
 
 </resources>

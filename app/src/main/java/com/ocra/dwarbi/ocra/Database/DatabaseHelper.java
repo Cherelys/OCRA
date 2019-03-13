@@ -1,18 +1,13 @@
 package com.ocra.dwarbi.ocra.Database;
 
-import android.bluetooth.BluetoothClass;
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
-import android.provider.ContactsContract;
 
 import com.ocra.dwarbi.ocra.Entities.User;
 import com.ocra.dwarbi.ocra.Formulier;
-
-import static android.os.Build.ID;
-import static android.provider.Telephony.Carriers.PASSWORD;
 
 public class DatabaseHelper extends SQLiteOpenHelper {
     private static final int DATABASE_VERSION = 1;

@@ -6,7 +6,7 @@
             android:id="@+id/nav_home"
             android:title="Home" />
         <item
-            android:id="@+id/nav_pve"
+            android:id="@+id/nav_for"
             android:title="Programma van Eisen " />
         <item
             android:id="@+id/nav_about"

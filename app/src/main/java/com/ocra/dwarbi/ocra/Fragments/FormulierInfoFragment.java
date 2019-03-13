@@ -15,7 +15,7 @@ public class FormulierInfoFragment extends Fragment {
     /**
      * A simple {@link Fragment} subclass.
      */
-        public FormulierInfoFragment() {
+    public FormulierInfoFragment() {
             // Required empty public constructor
         }
 
