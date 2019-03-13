@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
 xmlns:app="http://schemas.android.com/apk/res-auto"
-android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
 android:layout_height="match_parent">
 
 
@@ -25,19 +26,23 @@ android:layout_height="match_parent">
                 android:layout_width="match_parent"
                 android:layout_height="220dp"
                 app:srcCompat="@drawable/image3"
-                android:id="@+id/imageView5"
+                android:id="@+id/imageView3"
                 android:layout_marginEnd="191dp"
                 android:layout_alignParentTop="true"
-                android:layout_alignParentEnd="true" />
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="191dp"
+                android:layout_alignParentRight="true" />
 
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="220dp"
                 app:srcCompat="@drawable/image2"
-                android:id="@+id/imageView6"
+                android:id="@+id/imageView2"
                 android:layout_marginStart="138dp"
                 android:layout_alignParentTop="true"
-                android:layout_alignParentStart="true" />
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="138dp"
+                android:layout_alignParentLeft="true" />
 
         </RelativeLayout>
 
@@ -46,24 +51,26 @@ android:layout_height="match_parent">
             android:layout_height="155dp">
 
             <TextView
-                android:text="Of het nu om een strak eenvoudig ontwerp gaat of een gecompliceerd concept, bij ons ben je verzekerd van aandacht, kwaliteit, vakmanschap en creativiteit dat perfect is afgestemd op uw budget."
+                android:text="Elke school heeft een schoolgids. Hierin staat voor ouders veel praktische en belangrijke informatie over het schooljaar. Aan het begin van elk schooljaar krijgen ouders van de school de nieuwe schoolgids.
+                 Vaak staat de schoolgids en aanvullende informatie ook op de website van de school. "
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView3"
                 android:layout_alignParentBottom="true"
                 android:layout_alignParentStart="true"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                tools:ignore="HardcodedText"
+                android:layout_alignParentLeft="true" />
 
             <TextView
-                android:text="@string/srenniw_architects_n_v_heeft_zich_gecommitteerd_aan_het_op_de_voet_volgen_van_de_nieuwste_ontwikkelingen_die_zullen_leiden_tot_een_constante_kwalitatief_hoogstaande_dienstverlening_op_het_gebied_van_engineering"
+                android:text="Schoolgids"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView7"
                 android:textAlignment="center"
                 android:layout_above="@+id/textView3"
-                android:layout_alignParentStart="true" />
-
-
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -86,18 +93,21 @@ android:layout_height="match_parent">
                 android:id="@+id/imageView6"
                 android:layout_marginStart="156dp"
                 android:layout_alignParentTop="true"
-                android:layout_alignParentStart="true" />
+                android:layout_alignParentStart="true"
+                tools:ignore="RtlCompat" />
 
             <TextView
-                android:text="ONTWERPEN
-Of het nu om een strak eenvoudig ontwerp gaat of een gecompliceerd concept, bij ons ben je verzekerd van aandacht, kwaliteit, vakmanschap en creativiteit dat perfect is afgestemd op uw budget."
+                android:text="OUDERS
+                Via de medezeggenschapsraad praten ouders mee over het beleid van de school. De medezeggenschapsraad heeft instemmingsrecht op de vaststelling van de schoolgids. De medezeggenschapsraad praat daarnaast inhoudelijk mee over vrijwel alle onderwerpen die staan vermeld in de schoolgids. De medezeggenschapsraad speelt dus een belangrijke rol."
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/textView7"
+                android:id="@+id/textView10"
                 android:layout_marginTop="26dp"
                 android:textAlignment="center"
                 android:layout_below="@+id/imageView5"
-                android:layout_alignParentStart="true" />
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                tools:ignore="HardcodedText" />
 
 
         </RelativeLayout>
@@ -115,18 +125,23 @@ Of het nu om een strak eenvoudig ontwerp gaat of een gecompliceerd concept, bij 
                 android:textAlignment="center"
                 android:layout_alignParentBottom="true"
                 android:layout_alignParentStart="true"
-                android:layout_marginBottom="42dp" />
+                android:layout_marginBottom="42dp"
+                android:layout_alignParentLeft="true" />
 
             <TextView
-                android:text="Visualisatie
-    De 3D impressies op internationaal niveau die door ons geproduceerd word geeft u direct een beeld van het eindresultaat na oplevering, waardoor aanpassingen tijdens de uitvoering tot een minimum kan worden beperkt."
+                android:text="Wat staat er in de schoolgids?
+                In de schoolgids staat veel praktische informatie over de school en alles daaromheen. Daarnaast geeft de schoolgids ook houvast voor ouders en scholieren: hoe ziet het schooljaar én het onderwijs er dit jaar uit? De overheid vond sommige onderwerpen voor de schoolgids zo belangrijk, dat deze in de wet zijn opgenomen.
+                 De school mag daar natuurlijk altijd extra informatie aan toevoegen.
+                "
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView8"
                 android:textAlignment="center"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentStart="true"
-                android:layout_marginTop="26dp" />
+                android:layout_marginTop="26dp"
+                android:layout_alignParentLeft="true"
+                tools:ignore="HardcodedText" />
         </RelativeLayout>
 
     </LinearLayout>
