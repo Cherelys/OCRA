@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.cherelys.srenniwdemo001.fragments.PVEInfo">
+
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="81dp"
+        android:id="@+id/diensten" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/diensten"
+        android:layout_alignStart="@+id/diensten"
+        android:layout_marginTop="88dp"
+        android:id="@+id/bouwwerk" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bouwwerk"
+        android:layout_alignEnd="@+id/bouwwerk"
+        android:layout_marginTop="88dp"
+        android:id="@+id/budget" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/budget"
+        android:layout_alignStart="@+id/budget"
+        android:layout_marginTop="114dp"
+        android:id="@+id/eisen" />
+</RelativeLayout>
