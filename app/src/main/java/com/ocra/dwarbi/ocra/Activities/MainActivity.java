@@ -15,7 +15,6 @@ import android.widget.ArrayAdapter;
 
 import com.ocra.dwarbi.ocra.Database.DatabaseHelper;
 import com.ocra.dwarbi.ocra.Entities.User;
-import com.ocra.dwarbi.ocra.Formulier;
 import com.ocra.dwarbi.ocra.Fragments.AboutFragment;
 import com.ocra.dwarbi.ocra.Fragments.FormulierFragment;
 import com.ocra.dwarbi.ocra.Fragments.MainFragment;

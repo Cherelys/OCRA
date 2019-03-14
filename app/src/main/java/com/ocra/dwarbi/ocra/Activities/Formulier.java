@@ -1,4 +1,4 @@
-package com.ocra.dwarbi.ocra;
+package com.ocra.dwarbi.ocra.Activities;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,6 +9,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.ocra.dwarbi.ocra.Database.DatabaseHelper;
+import com.ocra.dwarbi.ocra.R;
 
 
 public class Formulier extends AppCompatActivity {

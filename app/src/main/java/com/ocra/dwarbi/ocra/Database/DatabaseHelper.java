@@ -7,7 +7,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
 import com.ocra.dwarbi.ocra.Entities.User;
-import com.ocra.dwarbi.ocra.Formulier;
+import com.ocra.dwarbi.ocra.Activities.Formulier;
 
 public class DatabaseHelper extends SQLiteOpenHelper {
     private static final int DATABASE_VERSION = 1;

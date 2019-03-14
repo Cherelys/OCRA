@@ -1,6 +1,5 @@
 package com.ocra.dwarbi.ocra.login;
 
-import android.app.Dialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -9,9 +8,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
-import android.widget.LinearLayout;
+
 import com.ocra.dwarbi.ocra.Database.DatabaseHelper;
-import com.ocra.dwarbi.ocra.HomeActivity;
+import com.ocra.dwarbi.ocra.Activities.HomeActivity;
 import com.ocra.dwarbi.ocra.R;
 
 public class LoginActivity extends AppCompatActivity {
