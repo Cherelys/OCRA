@@ -1,70 +1,94 @@
+
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="app_name">OCRA</string>
-    -------------------
-    <string-array name="header_titles">
-        <item>Onderneming Diensten</item>
-        <item>Bouwwerk Aard</item>
+<string name="app_name">OCRA</string>
+------------------
+//Fragment_Formulier
+<string name="firstname">Firstname</string>
+<string name="lastname">Lastname</string>
+<string name="phone">Phone</string>
+<string name="birthday">Birthday</string>
+<string name="gender">Gender</string>
+<string-array name="spinner_gender">
+    <item>man</item>
+    <item>female</item>
 
-    </string-array>
-    ----------------
-    <string name="password">Password</string>
-    <string name="username">Username</string>
-    <string name="login">lOGIN</string>
-    <string name="not_registered">Not Registered?</string>
-    <string name="register">Register</string>
-    <string name="confirm_password">Confirm Password</string>
-    <string name="already_registered">Already Registered</string>
-    <string name="welcome_user">Welcome User</string>
-    <string name="logo">LOGO</string>
-    <string name="appbar_scrolling_view_behavior" tools:ignore="DuplicateDefinition">appbar_scrolling_view_behavior</string>
-    <string name="appbar_scrolling_view_behavior" tools:ignore="DuplicateDefinition">appbar_scrolling_view_behavior</string>
-    <string name="pve">PVE</string>
-    <string name="about">About</string>
-    <string name="settings">Settings</string>
+</string-array>
+<string name="birthplace">Birtplace</string>
+<string name="email">Email</string>
+<string name="previous_education">Previous Education</string>
+<string-array name="spinner_previous_education">
+    <item>Natin-mbo</item>
+    <item>HAVO</item>
+</string-array>
+<string name="major">Major</string>
+<string name="school">School</string>
 
-
-    <string-array name="diensten_items">
-        <item>Vooronderzoek</item>
-        <item>Voor-ontwerp</item>
-        <item>Definitief-ontwerp</item>
-        <item>Constructierapport</item>
-        <item>Vergunning aanvraag O.W</item>
-        <item>Technische omschrijving</item>
-        <item>Technische tekeningen</item>
-        <item>Directie Raming</item>
-        <item>3D exterieur</item>
-        <item>3D interieur</item>
-        <item>Aanbesteding, contractvorming en gunning</item>
-        <item>Basis pakket Bouwadministratie</item>
-        <item>Bouwmanagement</item>
-        <item>Kwaliteitsmanagement</item>
-    </string-array>
+<string name="submit">Submit</string>
+<string name="cancel">Cancel</string>
 
 
-    <string-array name="bouwwerk_items">
-        <item>Woonhuis</item>
-        <item>Kantoor</item>
-        <item>Winkelcentrum</item>
-        <item>Appartement</item>
-        <item>Hotel</item>
-        <item>Sportcentrum</item>
-        <item>Multifunctionele bouwwerk</item>
-    </string-array>
-    <string name="title_activity_main_fragment">MainFragment</string>
 
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
 
-    <string name="action_settings">Settings</string>
+------------------
+<string-array name="header_titles">
+    <item>Onderneming Diensten</item>
+    <item>Bouwwerk Aard</item>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="srenniw_architects_n_v_heeft_zich_gecommitteerd_aan_het_op_de_voet_volgen_van_de_nieuwste_ontwikkelingen_die_zullen_leiden_tot_een_constante_kwalitatief_hoogstaande_dienstverlening_op_het_gebied_van_engineering">SRENNIW ARCHITECTS N.V. Heeft zich gecommitteerd aan het op de voet volgen van de nieuwste ontwikkelingen die zullen leiden tot een constante kwalitatief hoogstaande dienstverlening op het gebied van Engineering.</string>
-    <string name="ocra_menu">OCRA MENU</string>
-    <string name="update">UPDATE</string>
-    <string name="faq">FAQ</string>
-    <string name="profile">PROFILE</string>
-    <string name="report_bug">REPORT BUG</string>
-    <string name="link_account_with">LINK ACCOUNT WITH</string>
+
+</string-array>
+----------------
+<string name="password">Password</string>
+<string name="username">Username</string>
+<string name="login">lOGIN</string>
+<string name="not_registered">Not Registered?</string>
+<string name="register">Register</string>
+<string name="confirm_password">Confirm Password</string>
+<string name="already_registered">Already Registered</string>
+<string name="welcome_user">Welcome User</string>
+<string name="logo">LOGO</string>
+<string name="appbar_scrolling_view_behavior" tools:ignore="DuplicateDefinition">appbar_scrolling_view_behavior</string>
+<string name="pve">PVE</string>
+<string name="about">About</string>
+<string name="settings">Settings</string>
+
+
+<string-array name="diensten_items">
+    <item>Vooronderzoek</item>
+    <item>Voor-ontwerp</item>
+    <item>Definitief-ontwerp</item>
+    <item>Constructierapport</item>
+    <item>Vergunning aanvraag O.W</item>
+    <item>Technische omschrijving</item>
+    <item>Technische tekeningen</item>
+    <item>Directie Raming</item>
+    <item>3D exterieur</item>
+    <item>3D interieur</item>
+    <item>Aanbesteding, contractvorming en gunning</item>
+    <item>Basis pakket Bouwadministratie</item>
+    <item>Bouwmanagement</item>
+    <item>Kwaliteitsmanagement</item>
+</string-array>
+
+
+<string-array name="bouwwerk_items">
+    <item>Woonhuis</item>
+    <item>Kantoor</item>
+    <item>Winkelcentrum</item>
+    <item>Appartement</item>
+    <item>Hotel</item>
+    <item>Sportcentrum</item>
+    <item>Multifunctionele bouwwerk</item>
+</string-array>
+<string name="title_activity_main_fragment">MainFragment</string>
+
+<string name="navigation_drawer_open">Open navigation drawer</string>
+<string name="navigation_drawer_close">Close navigation drawer</string>
+
+<string name="action_settings">Settings</string>
+    <string name="contact">CONTACT</string>
+    <string name="dr_sophie_redmondstraat_243">Dr. Sophie Redmondstraat 243</string>
+    <string name="paramaribo_suriname_zuid_amerika">Paramaribo - Suriname - Zuid Amerika</string>
+    <string name="telefoon_597_6805211">Telefoon: +597 6805211</string>
+    <string name="e_mail_info_srenniw_com">E-mail: info@srenniw.com</string>
 
 </resources>

@@ -1,159 +1,155 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    xmlns:tools="http://schemas.android.com/tools">
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+xmlns:tools="http://schemas.android.com/tools">
 
 
-    <ScrollView
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="127dp"
+            android:layout_marginTop="50dp"
+            app:srcCompat="@drawable/deze2"
+            android:contentDescription="TODO" />
+
+        <EditText
+            android:id="@+id/edittext_firstname"
+            android:layout_width="206dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="2dp"
+            android:background="#ffffff"
+            android:hint="@string/firstname"/>
+
+        <EditText
+            android:id="@+id/edittext_lastname"
+            android:layout_width="206dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="2dp"
+            android:background="#ffffff"
+            android:hint="@string/lastname"/>
+
+        <EditText
+            android:id="@+id/edittext_phone"
+            android:layout_width="206dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="2dp"
+            android:background="#ffffff"
+            android:hint="@string/phone"/>
+
+        <EditText
+            android:id="@+id/edittext_birthday"
+            android:layout_width="206dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="2dp"
+            android:background="#ffffff"
+            android:hint="@string/birthday"/>
+
+        <Spinner
+            android:id="@+id/spinner_gender"
+            android:layout_width="206dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="2dp"
+            android:background="#ffffff"
+            android:entries="@array/spinner_gender"
+            android:text="@string/gender"/>
+
+        <EditText
+            android:id="@+id/edittext_birthplace"
+            android:layout_width="206dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="2dp"
+            android:background="#ffffff"
+            android:thint="@string/birthplace"/>
+
+        <EditText
+            android:id="@+id/edittext_email"
+            android:layout_width="206dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="2dp"
+            android:background="#ffffff"
+            android:hint="@string/email"/>
+
+        <Spinner
+            android:id="@+id/spinner_previous_educatoin"
+            android:layout_width="206dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="2dp"
+            android:background="#ffffff"
+            android:entries="@array/spinner_previous_education"
+            android:hint="@string/previous_education"/>
+
+
+        <EditText
+            android:id="@+id/edittext_major"
+            android:layout_width="206dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="2dp"
+            android:background="#ffffff"
+            android:hint="@string/major"/>
+
+        <EditText
+            android:id="@+id/edittext_school"
+            android:layout_width="206dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="2dp"
+            android:background="#ffffff"
+            android:hint="@string/school"/>
+
+
+
 
         <LinearLayout
+            android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:weightSum="1">
+            android:layout_height="wrap_content">
 
+            <Button
+                android:id="@+id/submit_form"
+                android:layout_width="206dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:background="#26d7ce"
+                android:textColor="#ffffff"
+                android:text="@string/submit"/>
 
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="499dp">
-
-                <TextView
-                    android:id="@+id/textView2"
-                    android:layout_width="match_parent"
-                    android:layout_height="27dp"
-                    android:layout_alignParentTop="true"
-                    android:layout_alignParentEnd="true"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_weight="0.18"
-                    android:text="CONCEPT CUSTOMER REQUIREMENTS"
-                    android:textAlignment="center"
-                    android:textAppearance="?android:textAppearanceMedium" />
-
-
-                <TextView
-                    android:id="@+id/textView21"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/textView2"
-                    android:layout_alignParentStart="true"
-                    android:layout_gravity="center_horizontal"
-                    android:text="BASIS PROGRAMMA VAN EISEN EN/OF WENSEN"
-                    android:textAlignment="center"
-                    android:textAppearance="?android:textAppearanceMedium" />
-
-                <ImageView
-                    android:id="@+id/imageView3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/textView21"
-                    android:layout_centerHorizontal="true"
-                    android:layout_marginTop="16dp"
-                    app:srcCompat="@drawable/logo" />
-
-                <TextView
-                    android:id="@+id/diensten"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/imageView3"
-                    android:layout_centerHorizontal="true"
-                    android:layout_marginTop="32dp"
-                    android:text="In welke dienst(en) van ons bent u geintereseerd?"
-                    android:textStyle="normal|bold" />
-
-                <TextView
-                    android:id="@+id/textView4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/diensten_spinner"
-                    android:layout_centerHorizontal="true"
-                    android:layout_marginTop="59dp"
-                    android:text="Wat is de aard van het tekenen bouwwerk?"
-                    android:textStyle="normal|bold" />
-
-                <Spinner
-                    android:id="@+id/bouwwerk_spinner"
-                    android:layout_width="300dp"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentBottom="true"
-                    android:layout_centerHorizontal="true"
-                    android:layout_marginBottom="22dp" />
-
-                <Spinner
-                    android:id="@+id/diensten_spinner"
-                    android:layout_width="300dp"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/diensten"
-                    android:layout_alignStart="@+id/bouwwerk_spinner"
-                    android:layout_marginTop="10dp" />
-
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-
-                <EditText
-                    android:id="@+id/etEisen"
-                    android:layout_width="300dp"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/etBudgetName"
-                    android:layout_alignParentStart="true"
-                    android:layout_alignParentEnd="true"
-                    android:ems="10"
-                    android:hint="Andere eisen?"
-                    android:inputType="text"
-                    android:textAlignment="center" />
-
-                <Button
-                    android:id="@+id/btnView"
-                    android:layout_width="105dp"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/etEisen"
-                    android:layout_alignParentEnd="true"
-                    android:layout_marginLeft="150dp"
-                    android:layout_marginTop="40dp"
-                    android:layout_marginEnd="62dp"
-                    android:layout_marginRight="150dp"
-                    android:onClick="viewEvent"
-                    android:text="View" />
-
-                <Button
-                    android:id="@+id/btnAdd"
-                    android:layout_width="105dp"
-                    android:layout_height="wrap_content"
-                    android:layout_alignBaseline="@+id/btnView"
-                    android:layout_alignBottom="@+id/btnView"
-                    android:layout_marginLeft="150dp"
-                    android:layout_marginEnd="37dp"
-                    android:layout_marginRight="150dp"
-                    android:layout_toStartOf="@+id/btnView"
-                    android:layout_weight="1"
-                    android:onClick="addEvent"
-                    android:text="Add" />
-
-                <EditText
-                    android:id="@+id/etBudgetName"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentTop="true"
-                    android:layout_centerHorizontal="true"
-                    android:layout_marginTop="23dp"
-                    android:ems="10"
-                    android:hint="Wat is uw budget?"
-                    android:inputType="text"
-                    android:textAlignment="center" />
-
-
-            </RelativeLayout>
+            <Button
+                android:id="@+id/cancel_form"
+                android:layout_width="206dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:background="#26d7ce"
+                android:textColor="#ffffff"
+                android:text="@string/cancel"/>
 
         </LinearLayout>
 
-    </ScrollView>
+
+    </LinearLayout>
+
+</ScrollView>
 
 
 </LinearLayout>
+
